@@ -22,11 +22,13 @@
 }
 .menu-icon{
     width: 40px;
-    height: auto;
+    height: 40px;
     display: none;
 }
-nav ul,
-nav li {
+nav {
+    display: block;
+}
+nav ul li {
     list-style: none;
 }
 nav ul {
