@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,user-scalable=0"/>
+        <link rel="stylesheet" type="text/css" href="assets/css/template.css"/>
+        <title>Land Page</title>
+    </head>
+    <body>
+        <header>
+            <aside class="start">
+                <div class="title">
+                    <a href="#">Departments</a>
+                </div>
+                    <nav>
+                        <ul>
+                            <li class="active"><a href="">Home</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Pages</a></li>
+                            <li><a href="">Departments</a></li>
+                            <li><a href="">Gallery</a></li>
+                            <li><a href="">contact</a></li>
+                        </ul>
+                    </nav>
+                <img onclick="menuTogle()" class="menu-icon" src="assets/images/menu.png" alt="">
+            </aside>
+            <section id="all">
+                <div class="principal">
+                    <h1 class="prin1">The best online product store</h1>
+                    <p class="prin2">This is the best and most complete department store you will find on the internet. Everything you look for in shoes and sports is here.</p>
+                    <div class="prin3"><a href="#   " class="bay">View Colection</a></div>
+                </div>
+            </section>
+        </header>
+        <main>
+        <section class="second">
+            <div class="bol-area">
+                <div class="bol-text">$</div>
+                <h2>30-days Money Back</h2>
+                <p class="text1">
+                    You can buy without fear of being happy. If you don't like it or don't think so, you have 30 days to exchange the product. Somos o melhor de nós pra você.
+                </p>
+            </div>
+            <div class="bol-area">
+                <div class="bol-text">/---/</div>
+                <h2>Free Fitments Start</h2>
+                <p class="text1">
+                    You can buy without fear of being happy. If you don't like it or don't think so, you have 30 days to exchange the product. Somos o melhor de nós pra você.
+                </p>
+            </div>
+            <div class="bol-area">
+                <div class="bol-text">º--º</div>
+                <h2>We Deliver Happiness</h2>
+                <p class="text1">
+                    You can buy without fear of being happy. If you don't like it or don't think so, you have 30 days to exchange the product. Somos o melhor de nós pra você.
+                </p>
+            </div>
+        </section>
+        <div class="promo">
+            On Sale
+        </div><hr/>
+        <section class="photos">
+            <div class="photo">
+                <img src="assets/images/tenis.jpg"/>
+                <h3>Touch Wather</h3>
+                <h3>$630,00</h3>
+                <input class="sub" type="submit" value="Comprar">
+            </div>
+                <div class="photo">
+                <img src="assets/images/tenis2.jpg"/>
+                <h3>Venus</h3>
+                <h3>$450,00</h3>
+                <input class="sub" type="submit" value="Comprar">
+            </div>
+            <div class="photo">
+                <img src="assets/images/tenis3.jpg"/>
+                <h3>Add Quest</h3>
+                <h3>$780,00</h3>  
+                <input class="sub" type="submit" value="Comprar">
+            </div>
+            <div class="photo">
+                <img src="assets/images/tenis4.jpg"/>
+                <h3>Star Walls</h3>
+                <h3>$900,00</h3>
+                <input class="sub" type="submit" value="Comprar">
+            </div>
+        </section>
+    </main>
+        <footer>
+                Todos os direitos reservados
+        </footer>
+        <script>
+            function menuTogle(){
+                let nav = document.querySelector('nav');
+                    if(nav.style.display == 'none') {
+                        nav.style.display = 'block';
+                    } else{
+                        nav.style.display = 'none';
+                    }
+                }
+        </script>
+    </body>
+    </html>
